@@ -13,6 +13,6 @@ docker push ucoruh/multi-worker:$SHA
 kubectl apply -f k8s
 
 kubectl set image deployments/server-deployment server=ucoruh/multi-server:$SHA
-kubectl set image deployments/client-deployment server=ucoruh/multi-client:$SHA
-kubectl set image deployments/worker-deployment server=ucoruh/multi-worker:$SHA
+kubectl set image deployments/client-deployment client=ucoruh/multi-client:$SHA
+kubectl set image deployments/worker-deployment worker=ucoruh/multi-worker:$SHA
 
