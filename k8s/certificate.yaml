@@ -1,13 +1,13 @@
 apiVersion: cert-manager.io/v1alpha2
 kind: Certificate
 metadata:
-  name:  k8s-multi-com-tls
+  name:  k8s-ugurcoruh-com-tls
 spec:
-  secretName: k8s-multi-com
+  secretName: k8s-ugurcoruh-com
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
-  commonName: k8.ugurcoruh.com
+  commonName: k8s.ugurcoruh.com
   dnsNames:
     - k8s.ugurcoruh.com
     - www.k8s.ugurcoruh.com
