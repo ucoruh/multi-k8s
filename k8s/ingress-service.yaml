@@ -11,8 +11,8 @@ metadata:
 spec:
   tls:
     - hosts:
-      - k8s.ugurcoruh.com
-      - www.k8s.ugurcoruh.com
+        - k8s.ugurcoruh.com
+        - www.k8s.ugurcoruh.com
       secretName: k8s-multi-com
   rules:
     - host: k8s.ugurcoruh.com
