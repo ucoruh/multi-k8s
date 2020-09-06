@@ -7,7 +7,7 @@ spec:
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
-  commonName: ugurcoruh.com
+  commonName: k8.ugurcoruh.com
   dnsNames:
     - k8s.ugurcoruh.com
     - www.k8s.ugurcoruh.com
